@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,100;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+img {
+    width: 100%;
+}
+
+header,
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.center-justify-content {
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px
+}
+
+.wrapper > div {
+  flex: 1;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.hero {
+  height: 600px;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero-content {
+  gap: 15px;
+  min-height: 250px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: .1rem;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+.hero-text {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.random-info {
+  padding: 90px 0 150px;
+  text-align: center;
+}
+
+.random-info article {
+  flex-direction: column;
+  flex: 0 1 180px;
+}
+
+.random-info article .img-bue-frame {
+  aspect-ratio: 1;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+}
+
+.random-info h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.random-info .gap {
+  gap: 50px;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  background-image: url(./images/Black-Animation-Background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e6e7e9;
+  padding: 170px 0;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+
+
+}
+
+.testimonial p {
+    max-width: 800px;
+    line-height: 2.8rem;
+}
+
+.cta-section {
+    padding: 100px 0;
+}
+
+.cta-frame {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 60px;
+    color: #f9faf8;
+}
+
+.cta-frame button {
+    margin-left: auto;
+    border: 3px white solid;
+    padding: 10px 50px;
+}
+
+.cta-frame h3 {
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    padding: 30px 0;
+    background-color: #1f2937;
+}
+
+footer span {
+    margin: auto;
+    color: #f9faf8;
+}
+
+.sig {
+    text-align: right;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
